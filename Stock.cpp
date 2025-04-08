@@ -6,4 +6,11 @@ class Stock{
         string company_name;
         string company_information;
 
+
+    Stock(){
+        this->stock_price = stock_price;
+        this->company_information = company_information;
+        this->company_name = company_name;
+    }
+
 };
