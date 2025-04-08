@@ -7,8 +7,11 @@
 using namespace std;
 
 
+
 class Stock {
 public:
-    string equity_name;
+    int stock_price;
+    string stock_symbol;
+    string stock_name;
 };
 

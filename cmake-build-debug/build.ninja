@@ -61,6 +61,12 @@ build CMakeFiles/Trading_Engine.dir/Stock.cpp.o: CXX_COMPILER__Trading_Engine_un
   OBJECT_DIR = CMakeFiles/Trading_Engine.dir
   OBJECT_FILE_DIR = CMakeFiles/Trading_Engine.dir
 
+build CMakeFiles/Trading_Engine.dir/Equity.cpp.o: CXX_COMPILER__Trading_Engine_unscanned_Debug /Users/elijahgervais/CLionProjects/Trading_Engine/Equity.cpp || cmake_object_order_depends_target_Trading_Engine
+  DEP_FILE = CMakeFiles/Trading_Engine.dir/Equity.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.3 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/Trading_Engine.dir
+  OBJECT_FILE_DIR = CMakeFiles/Trading_Engine.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Trading_Engine
@@ -69,7 +75,7 @@ build CMakeFiles/Trading_Engine.dir/Stock.cpp.o: CXX_COMPILER__Trading_Engine_un
 #############################################
 # Link the executable Trading_Engine
 
-build Trading_Engine: CXX_EXECUTABLE_LINKER__Trading_Engine_Debug CMakeFiles/Trading_Engine.dir/main.cpp.o CMakeFiles/Trading_Engine.dir/Stock.cpp.o
+build Trading_Engine: CXX_EXECUTABLE_LINKER__Trading_Engine_Debug CMakeFiles/Trading_Engine.dir/main.cpp.o CMakeFiles/Trading_Engine.dir/Stock.cpp.o CMakeFiles/Trading_Engine.dir/Equity.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.5.sdk -mmacosx-version-min=14.3
   OBJECT_DIR = CMakeFiles/Trading_Engine.dir
   POST_BUILD = :
