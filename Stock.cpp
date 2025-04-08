@@ -14,5 +14,9 @@ class Stock{
         this->company_name = company_name;
         this->test_info = test_info;
     }
+    void getStock(){
+        return company_name;
+        return company_i
+    }
 
 };
