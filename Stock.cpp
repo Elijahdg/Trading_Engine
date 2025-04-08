@@ -3,3 +3,12 @@
 //
 
 #include "Stock.h"
+# include <vector>
+using namespace std;
+
+
+class Stock {
+public:
+    string equity_name;
+};
+
